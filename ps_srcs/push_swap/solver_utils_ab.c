@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   move_counter_ab.c                                  :+:      :+:    :+:   */
+/*   solver_utils_ab.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: unmugviolet <unmugviolet@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/14 16:51:22 by pjaguin           #+#    #+#             */
-/*   Updated: 2025/01/21 10:51:35 by unmugviolet      ###   ########.fr       */
+/*   Created: 2025/01/14 16:51:22 by yguinio           #+#    #+#             */
+/*   Updated: 2025/01/23 23:02:57 by fureimu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_case_rarb_ab(t_sclist *a, t_sclist *b, int val)
 	int	i;
 
 	i = ft_find_value_place_b(b, val);
-	if (i < ft_sclst_find_index(a, val))
+	if (i < ft_find_index(a, val))
 		i = ft_sclst_find_index(a, val);
 	return (i);
 }

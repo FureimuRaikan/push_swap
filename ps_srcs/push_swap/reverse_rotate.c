@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   reverse_rotate.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: unmugviolet <unmugviolet@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/08 17:53:07 by pjaguin           #+#    #+#             */
-/*   Updated: 2025/01/22 13:49:11 by unmugviolet      ###   ########.fr       */
+/*   Created: 2025/01/08 17:53:07 by yguinio           #+#    #+#             */
+/*   Updated: 2025/01/23 23:02:57 by fureimu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

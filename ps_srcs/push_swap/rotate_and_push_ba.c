@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rotate_and_push_ba.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: unmugviolet <unmugviolet@student.42.fr>    +#+  +:+       +#+        */
+/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/15 09:49:40 by pjaguin           #+#    #+#             */
-/*   Updated: 2025/01/22 13:53:23 by unmugviolet      ###   ########.fr       */
+/*   Created: 2025/01/15 09:49:40 by yguinio           #+#    #+#             */
+/*   Updated: 2025/01/23 23:02:57 by fureimu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
