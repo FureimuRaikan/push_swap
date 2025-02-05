@@ -6,7 +6,7 @@
 #    By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/08 13:05:36 by yguinio           #+#    #+#              #
-#    Updated: 2025/02/05 11:30:33 by yguinio          ###   ########.fr        #
+#    Updated: 2025/02/05 11:31:12 by yguinio          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -85,4 +85,3 @@ bonus: all $(BONUS)
 
 # Specify that these are not files to compile (just for safety)
 .PHONY: all clean fclean re bonus go debug gov
-	
