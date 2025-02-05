@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "push_swap.h": "c",
+        "libft.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c",
+        "display.h": "c",
+        "strings_functions.h": "c",
+        "linked_list.h": "c",
+        "memory.h": "c"
+    }
+}
