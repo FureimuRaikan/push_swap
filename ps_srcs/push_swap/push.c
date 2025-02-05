@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
+/*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 16:31:44 by yguinio           #+#    #+#             */
-/*   Updated: 2025/01/23 23:02:57 by fureimu          ###   ########.fr       */
+/*   Updated: 2025/02/05 16:09:20 by yguinio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static void	push(t_sclist **stack_from, t_sclist **stack_to)
 	temp = *stack_from;
 	if ((*stack_from)->next != *stack_from)
 	{
-		ft_sclstlast(*stack_from)->next = (*stack_from)->next;
+		ft_sclst_last(*stack_from)->next = (*stack_from)->next;
 		*stack_from = (*stack_from)->next;
 	}
 	else
@@ -27,7 +27,7 @@ static void	push(t_sclist **stack_from, t_sclist **stack_to)
 	if (!(*stack_to))
 		*stack_to = temp;
 	temp->next = (*stack_to);
-	ft_sclstlast(*stack_to)->next = temp;
+	ft_sclst_last(*stack_to)->next = temp;
 	*stack_to = temp;
 }
 

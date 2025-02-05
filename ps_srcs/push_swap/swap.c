@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   swap.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
+/*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 10:56:36 by yguinio           #+#    #+#             */
-/*   Updated: 2025/01/23 23:02:57 by fureimu          ###   ########.fr       */
+/*   Updated: 2025/02/05 16:09:20 by yguinio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static void	swap(t_sclist **stack)
 			*stack = (*stack)->next;
 			return ;
 		}
-		ft_sclstlast(*stack)->next = temp_second;
+		ft_sclst_last(*stack)->next = temp_second;
 		temp_second->next = temp_first;
 		temp_first->next = temp_third;
 		(*stack) = temp_second;

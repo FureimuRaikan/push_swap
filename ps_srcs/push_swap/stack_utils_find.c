@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   stack_utils_find.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
+/*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 14:58:56 by yguinio           #+#    #+#             */
-/*   Updated: 2025/01/23 23:02:57 by fureimu          ###   ########.fr       */
+/*   Updated: 2025/02/05 16:09:20 by yguinio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ int	ft_find_value_place_a(t_sclist *stack_a, int to_push)
 	t_sclist	*temp;
 
 	i = 1;
-	if (to_push < stack_a->value && to_push > ft_sclstlast(stack_a)->value)
+	if (to_push < stack_a->value && to_push > ft_sclst_last(stack_a)->value)
 		i = 0;
 	else if (to_push > ft_sclst_max(stack_a) || to_push < ft_sclst_min(stack_a))
 		i = ft_sclst_find_index(stack_a, ft_sclst_min(stack_a));
@@ -76,7 +76,7 @@ int	ft_find_value_place_b(t_sclist *stack_b, int to_push)
 	t_sclist	*temp;
 
 	i = 1;
-	if (to_push > stack_b->value && to_push < ft_sclstlast(stack_b)->value)
+	if (to_push > stack_b->value && to_push < ft_sclst_last(stack_b)->value)
 		i = 0;
 	else if (to_push > ft_sclst_max(stack_b) || to_push < ft_sclst_min(stack_b))
 		i = ft_sclst_find_index(stack_b, ft_sclst_max(stack_b));

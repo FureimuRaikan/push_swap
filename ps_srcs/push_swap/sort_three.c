@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_three.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
+/*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/09 15:53:34 by yguinio           #+#    #+#             */
-/*   Updated: 2025/01/23 23:02:57 by fureimu          ###   ########.fr       */
+/*   Updated: 2025/02/05 16:09:20 by yguinio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_sort_three(t_sclist **stack_a)
 		return ;
 	first_val = (*stack_a)->value;
 	second_val = (*stack_a)->next->value;
-	last_val = ft_sclstlast(*stack_a)->value;
+	last_val = ft_sclst_last(*stack_a)->value;
 	if (ft_sclst_size(*stack_a) == 2)
 		return (ra(stack_a, 0));
 	if (first_val > last_val && first_val > second_val && second_val > last_val)
