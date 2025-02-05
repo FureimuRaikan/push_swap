@@ -6,15 +6,15 @@
 /*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 10:29:58 by yguinio           #+#    #+#             */
-/*   Updated: 2025/02/05 10:31:18 by yguinio          ###   ########.fr       */
+/*   Updated: 2025/02/05 14:45:16 by yguinio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_is_whitespace(char c)
+int	ft_is_whitespace(char c)
 {
-    if (c == ' ')
-        return (1);
-    return (0);
+	if (c == ' ')
+		return (1);
+	return (0);
 }
