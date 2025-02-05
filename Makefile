@@ -6,13 +6,12 @@
 #    By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/08 13:05:36 by yguinio           #+#    #+#              #
-#    Updated: 2025/02/05 11:09:51 by yguinio          ###   ########.fr        #
+#    Updated: 2025/02/05 11:30:33 by yguinio          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 BONUS = checker
-ARGS = 5 6 7 8 9 11 10 0 1 2 3 4 
 CC = cc
 
 LIBFT_DIR = ./libft
@@ -83,18 +82,6 @@ fclean: clean
 re: fclean all bonus
 
 bonus: all $(BONUS)
-
-go: all
-	@echo "$(CYAN) ./$(NAME) $(WHITE)"
-	@./$(NAME) $(ARGS)
-
-debug: all
-	@echo "$(CYAN) lldb ./$(NAME) $(WHITE)"
-	@ lldb ./$(NAME) $(ARGS)
-
-gov: all
-	@echo "$(CYAN) valgrind --leak-check=full --show-leak-kinds=all ./$(NAME) $(ARGS)$(WHITE)"
-	@valgrind --leak-check=full --show-leak-kinds=all ./$(NAME) $(ARGS)
 
 # Specify that these are not files to compile (just for safety)
 .PHONY: all clean fclean re bonus go debug gov
