@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sclst_new.c                                     :+:      :+:    :+:   */
+/*   ft_sclstnew.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
+/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/23 16:47:22 by fureimu           #+#    #+#             */
-/*   Updated: 2025/02/05 11:07:37 by yguinio          ###   ########.fr       */
+/*   Updated: 2025/01/23 16:57:26 by fureimu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_sclist	*ft_sclst_new(int content)
+t_sclist	*ft_sclstnew(int content)
 {
 	t_sclist	*new_element;
 

@@ -6,7 +6,7 @@
 /*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/21 10:29:32 by fureimu           #+#    #+#             */
-/*   Updated: 2025/02/05 14:46:01 by yguinio          ###   ########.fr       */
+/*   Updated: 2025/02/05 15:05:38 by yguinio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_substr_free(char *str, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_reverse(char *str);
 
@@ -35,6 +36,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 
 char	**ft_split(char const *s, char c);
+char	**ft_split_quote(char const *str, char c, char quote);
 
 char	*get_next_line(int fd);
 

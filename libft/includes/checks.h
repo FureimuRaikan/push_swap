@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checks.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+        */
+/*   By: fureimu <fureimu@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/21 10:29:25 by fureimu           #+#    #+#             */
-/*   Updated: 2025/02/05 14:44:30 by yguinio          ###   ########.fr       */
+/*   Updated: 2025/01/21 15:45:20 by fureimu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,5 @@ int		ft_isdigit(int c);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
-int		ft_is_whitespace(char c);
 
 #endif
