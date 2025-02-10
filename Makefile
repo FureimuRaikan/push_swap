@@ -6,7 +6,7 @@
 #    By: yguinio <yguinio@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/08 13:05:36 by yguinio           #+#    #+#              #
-#    Updated: 2025/02/05 11:31:12 by yguinio          ###   ########.fr        #
+#    Updated: 2025/02/10 11:16:00 by yguinio          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -79,7 +79,7 @@ fclean: clean
 	@$(MAKE) fclean -C $(LIBFT_DIR)
 	@echo "$(CYAN)libft executables and objects removed succesfully!$(DEFAULT)"
 	
-re: fclean all bonus
+re: fclean all
 
 bonus: all $(BONUS)
 
